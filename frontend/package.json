@@ -1,0 +1,53 @@
+{
+  "name": "webpack-eslint",
+  "version": "1.0.0",
+  "description": "learn about webpack, babel, eslint",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel entry.js --out-file point.js --presets=@babel/preset-env",
+    "build:dev": "webpack",
+    "build:dev-server": "webpack serve",
+    "build:prod": "webpack --config ./webpack.prod.config.js",
+    "electron-build": "electron-builder",
+    "release": "yarn build:prod && yarn electron-build",
+    "start": "concurrently \"cross-env BROWSER=none npm run build:dev-server\" \"wait-on http://localhost:9000 && electron .\""
+  },
+  "author": "Camilo Moncada",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "dotenv-webpack": "^6.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "axios": "^0.21.0",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1",
+    "electron-is-dev": "^1.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "sweetalert2": "^10.11.1",
+    "typescript": "^4.1.2",
+    "wait-on": "^5.2.0"
+  }
+}
