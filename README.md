@@ -4,10 +4,10 @@ This is a personal proyect in when i use some technologies that i know and I wan
 The stack the this project are: reactJS, react router, nodejs, mongoDB
 
 ## Technologies used:
-<img src="https://img.shields.io/badge/react-router%20-%23323330.svg?&style=for-the-badge&logo=reactjs&logoColor=%23f7de1e" alt="React Router"/>
-<img src="https://img.shields.io/badge/react-%235194f2.svg?&style=for-the-badge&logo=react&logoColor=white" alt="ReactJS"/>
+<img src="https://img.shields.io/badge/react-%2300c4e6.svg?&style=for-the-badge&logo=react&logoColor=white" alt="React Router"/>
+<img src="https://img.shields.io/badge/react-%2300c4e6.svg?&style=for-the-badge&logo=react&logoColor=white" alt="React"/>
 <img src="https://img.shields.io/badge/node%2Ejs-%2362af43.svg?&style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
-<img src="http://img.shields.io/badge/mongodb-7353b5.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/mongodb-%2368a14a.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
 <img src="http://img.shields.io/badge/electron-7353b5.svg?&style=for-the-badge&logo=electron&logoColor=white" alt="Electron"/>
 
 ## Compile the project
